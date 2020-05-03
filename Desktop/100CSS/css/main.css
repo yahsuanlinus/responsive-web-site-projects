@@ -1,3 +1,6 @@
+body {
+  background-color: #113f67; }
+
 .cb {
   display: none; }
 
@@ -37,6 +40,14 @@
 
 .cb:checked ~ .button {
   transform: rotateX(180deg); }
+
+a {
+  font-size: 1.1rem;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 2px; }
 
 .frame {
   position: absolute;
