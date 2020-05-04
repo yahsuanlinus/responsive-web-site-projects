@@ -1,0 +1,16 @@
+{
+  "name": "100css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass --include-path scss scss/main.scss css/main.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.5.0",
+    "node-sass": "^4.14.0",
+    "sass": "^1.26.5"
+  }
+}
